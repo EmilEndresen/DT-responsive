@@ -1,0 +1,28 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 100svh;
+}
+
+button {
+    font-size: 16px;
+    padding: 1.5em;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.responsive {
+    font-size: 2rem;
+}
+
+.ch {
+    font-size: 2rem;
+    max-width: 17ch;
+    /* min-height: 30ex; */
+
+}
